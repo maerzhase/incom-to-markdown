@@ -1,0 +1,10 @@
+{
+  "name": "incom-to-markdown",
+  "version": "0.0.1",
+  "description": "convert incom exports to markdown and beyond",
+  "main": "index.js",
+  "repository": "git@github.com:maerzhase/incom-to-markdown.git",
+  "author": "maerzhase <markus@lili16.de>",
+  "license": "MIT",
+  "private": false
+}
