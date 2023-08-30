@@ -17,4 +17,4 @@ This project consumes incom projects exported via the incom export feature and g
 
 - `npm start` will start the pdf generation
 
-The script will read all folders within the `src/in` folder. Each folder is expected to contain exactly __1__ `.json`-file. The terminal will show you information about the progress of the script.
+The script will read all folders within the `src/in` folder. Each folder is expected to contain exactly __1__ `.json`-file and __1__ `media`-folder. The terminal will show you information about the progress of the script.
