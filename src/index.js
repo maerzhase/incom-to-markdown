@@ -84,9 +84,10 @@ async function main() {
     console.log(chalk.green.bold("✓ Markdown successfully parsed! Starting pdf generation."))
     const outDir = path.join(__dirname, "out", `${inDir}.pdf`)
     await mdToPdf(
-      { content: markdown },
+      { content: markdown,  },
       {
         dest: outDir,
+        css: `img { max-width: 66%; }`, 
         basedir: path.join(IMPORT_PATH, inDir, "media"),
       }
     )
