@@ -9,7 +9,16 @@ This project consumes incom projects exported via the incom export feature and g
 ## Prerequisite
 
 - Create a `in` folder in the `src` folder that contains all the projects that should be converted to pdf, e.g.: `src/in/Incom project_3215`
+- Each project folder must contain a `.json` file and a folder with the title `media`
 - Create a `out` folder in the `src` folder. This folder will be used to save all the generated pdf files
+
+|-- src
+|   |-- in
+|       |-- project_x
+|           |-- project_x.json
+|           |-- media
+|               |-- medium_A.png
+|               |-- medium_B.jpg
 
 > Note: `in` and `out` folder are both on `.gitignore` to not polute the repository with all the content that is being generated.
 
